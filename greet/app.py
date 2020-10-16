@@ -1,11 +1,10 @@
-from flask import Flask, request
+from flask import Flask
 
 app = Flask(__name__)
 
 
 @app.route('/welcome')
 def welcome():
-    """add welcome html"""
     return "<h1>welcome</h1>"
 
 
